@@ -16,7 +16,7 @@ teste();
 teste();
 function testeStatic (){// valor mantido e acrescenta em chamadas de funções 
 
-     static $a = 0;
+     static $a = 2;
     $a++;
 
     echo "$a <br>";
